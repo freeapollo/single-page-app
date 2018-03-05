@@ -1,0 +1,75 @@
+@font-face {
+    font-family: dashboardFont;
+    src: url("robotottf/Roboto-Thin.ttf");
+}
+html{
+  height: 100%;
+  font-family: Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+body{
+  background-color: #f0f2f5;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+#root{
+  height: 100%;
+}
+.HeaderBar{
+  position: fixed;
+  width: 100%;
+  background-color: #63c2de;
+  height: 55px;
+}
+.navigationBar{
+  flex: 2;
+  background-color: #e4e5e6;
+  color: #000;
+  overflow: auto;
+  height: 100%;
+}
+.navList{
+  padding: 0;
+  list-style-type: none;
+}
+.parentHeader{
+  margin: 12px 0;
+  font-size: 16px;
+  font-weight: bold;
+  height: 30px;
+  padding-left: 10px;
+}
+.childHeader{
+  padding: 4px 0px 4px 40px;
+  margin: 4px 0;
+  font-size: 12px;
+  height: 30px;
+  cursor: pointer;
+}
+.childHeader:hover{
+  background-color:#63c2de;
+}
+.mainContainer{
+  width: 98%;
+  height: 96%;
+  background-color: #ffffff;
+  margin: 1%;
+}
+.menuContainer{
+  margin-top: 20px;
+}
+.menuList{
+  margin-left: 20px;
+  padding-left: 30px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+}
+.menuList:hover{
+  background-color: #63c2de;
+  border-radius: 5px 0 0 5px;
+}
+.childMenu{
+  padding-left: 40px;
+}
